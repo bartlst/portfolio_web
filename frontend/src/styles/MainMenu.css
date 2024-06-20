@@ -1,0 +1,29 @@
+.mainNavigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainNavigation-menu{
+    list-style: none;
+    display: flex;
+    gap: 4rem; 
+}
+
+.mainNavigation-menu li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    color: rgb(49, 49, 49);
+    transition: .2s ease;
+}
+
+.mainNavigation-menu li:hover{
+    color: rgb(172, 172, 172);
+}
+
+
+.mainNavigation-menu a{
+    color: inherit;
+    text-decoration: none;
+}
